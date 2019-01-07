@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/berkshire_swash</item>
+        <item>@font/cabin</item>
+        <item>@font/codystar</item>
+        <item>@font/faster_one</item>
+        <item>@font/lemonada_semibold</item>
+    </array>
+</resources>
