@@ -25,6 +25,6 @@ Used elements:
 
 The most important data for the user is the e-mail address to which the message arrives about the activity of the camera trap. The person that operating the application can also decide whether the message should be sent with or without attachment and in what form the images from the camera are captured.
 
-![](images/Screenshot_2019-02-13-18-00-50.pngs)
+![](images/Screenshot_2019-02-13-18-00-50.png)
 
 Folder 'Raspberry Pi' has the python code that supports Raspberry Pi and Spy Cam.
