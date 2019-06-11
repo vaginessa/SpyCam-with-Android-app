@@ -10,5 +10,14 @@ which allows the user to choose one of several functionalities, such as:
 * e-mail to which the user will receive notification and the 
 * option to add an attachment to mail in the form of a registered image.
 
+![](images/Obraz1.jpg)
 
+The project started with the construction of a photo-trap. For proper operation of the device, a camera and a motion sensor are required.
+Used elements:
+* Raspberry Pi model B v1.2
+* RPicamera v1.2 
+* To release the camera's shutter, the program must detect movement in its field of view. For this purpose, the PIR HC-SR501 motion detector was used.
+* Powerbank Trust Urban primo 8800 mAh as part of the power supply
+* LG K10 (2017) - smartphone with installed application
+![](images/20190221_205252.jpg)
 Folder 'Raspberry Pi' has the python code that supports Raspberry Pi and Spy Cam.
