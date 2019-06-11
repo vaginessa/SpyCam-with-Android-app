@@ -19,5 +19,7 @@ Used elements:
 * To release the camera's shutter, the program must detect movement in its field of view. For this purpose, the PIR HC-SR501 motion detector was used.
 * Powerbank Trust Urban primo 8800 mAh as part of the power supply
 * LG K10 (2017) - smartphone with installed application
+
 ![](images/20190221_205252.jpg)
+
 Folder 'Raspberry Pi' has the python code that supports Raspberry Pi and Spy Cam.
