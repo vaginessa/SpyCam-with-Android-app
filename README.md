@@ -6,9 +6,9 @@ The Raspberry Pi platform and the Python programming language were used to desig
 The main function of the device is to take pictures and send them to the user's e-mail address with simultaneous notification of the camera's activity. 
 Photos are placed on Google's disk. The spycam communicates via bluetooth with the Android application,
 which allows the user to choose one of several functionalities, such as:
-*the type of camera activity (photo / series of photos or video), 
-*e-mail to which the user will receive notification and the 
-*option to add an attachment to mail in the form of a registered image.
+* the type of camera activity (photo / series of photos or video), 
+* e-mail to which the user will receive notification and the 
+* option to add an attachment to mail in the form of a registered image.
 
 
 Folder 'Raspberry Pi' has the python code that supports Raspberry Pi and Spy Cam.
