@@ -1,9 +1,9 @@
 # SpyCam with Android app
 
-The main purpose of this work was to create a spycam and a mobile application based on the Android system that would enable remote control. 
+The main purpose of this project was to create a spycam and a mobile application based on the Android system that would enable remote control. 
 It was assumed that the camera will be used to observe animals in their natural environment.
 The Raspberry Pi platform and the Python programming language were used to design and implement it.
-The main function of the device is to take pictures and send them to the user's e-mail address with simultaneous notification of the camera's activity. 
+The main function of the device is to take pictures and send them to the user's e-mail address as notification of camera's activity. 
 Photos are placed on Google's disk. The spycam communicates via bluetooth with the Android application,
 which allows the user to choose one of several functionalities, such as:
 * the type of camera activity (photo / series of photos or video), 
@@ -21,5 +21,10 @@ Used elements:
 * LG K10 (2017) - smartphone with installed application
 
 ![](images/20190221_205252.jpg)
+
+
+The most important data for the user is the e-mail address to which the message arrives about the activity of the camera trap. The person that operating the application can also decide whether the message should be sent with or without attachment and in what form the images from the camera are captured.
+
+![](images/Screenshot_2019-02-13-18-00-50.pngs)
 
 Folder 'Raspberry Pi' has the python code that supports Raspberry Pi and Spy Cam.
