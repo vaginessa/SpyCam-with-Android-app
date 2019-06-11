@@ -1,5 +1,5 @@
 # SpyCam with Android app
-Spy cam created on Raspberry Pi supported by the android Application.
+
 The main purpose of this work was to create a spycam and a mobile application based on the Android system that would enable remote control. 
 It was assumed that the camera will be used to observe animals in their natural environment.
 The Raspberry Pi platform and the Python programming language were used to design and implement it.
