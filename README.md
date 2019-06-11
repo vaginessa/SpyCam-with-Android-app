@@ -27,8 +27,8 @@ The most important data for the user is the e-mail address to which the message 
 
 ![](images/Screenshot_2019-02-13-18-00-50.png)
 
-##Operations description
-###Taking photos:
+## Operations description
+### Taking photos:
 * A camera trap is a device that is in standby mode throughout its operation.
 * The state of the sensor is checked in an infinite loop
 * If no presence is detected, it is forced to wait 0.3 seconds for the next reading of the variable.
@@ -37,13 +37,13 @@ The most important data for the user is the e-mail address to which the message 
   - the takePic () method to take one or more photos 
   - takeVid () method for video recording.
 * Pictures are placed on Google's disk and an email is sent
-##Google cloud:
+## Google cloud:
 * Using the account created, the virtual disk assigned to it was used and the "RPi" folder was made available.
 * To allow the python application to run from the Drive API from the Google website, the credentials.json configuration file was downloaded
 * Using the google's quickstart.py program, the token.json file was automatically downloaded
 * Google uses OAuth 2.0 in web server applications
 * Pictures are copied from a folder on Raspberry Pi to Google Drive and placed in the "RPi" folder
-##Bluetooth connection:
+## Bluetooth connection:
 * Client-server architecture was used using a Bluetooth connection.
 * The bluez package is used for configuration and use on Linux systems.
 * Server was createdOn the Raspberry Pi platform, which will be responsible for receiving messages from the Android application.
